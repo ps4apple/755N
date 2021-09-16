@@ -1,5 +1,5 @@
 CACHE MANIFEST 
-# v1.3
+# v1.1
 
 app-dumper.js
 blob.js
@@ -10,7 +10,6 @@ hen213b.js
 base.png
 index.html
 int64.js
-int64n.js
 jb.js
 jbn.js
 mira.js
@@ -18,12 +17,9 @@ netcat.js
 exploit.js
 preloader.js
 loader.js
-payload.html
+payload11.html
+payload10.html
 755N10.html
 755N11.html
 ps4.js
-ps4n.js
-755N11.html
-755N10.html
-utilsn.js
 utils.js
