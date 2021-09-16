@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest"><head>
-<title>-  PS4애플(메인)  -</title>
+<title>-&nbsp&nbspPS4애플(메인)&nbsp&nbsp-</title>
 <style>
 html, body {
 background-image: url('base.png');
@@ -54,7 +54,7 @@ color: white;
 }
 </style>
 <script>
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="캐쉬 설치중: " + Percent + "%";}
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="캐쉬 설치중:" + Percent + "%";}
 function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="* 캐쉬 설치 완료 *";},1000);setTimeout(function(){window.msgs.innerHTML="(PS)홈키로 나가서, [네트워크-사용안함]으로 하고 다시 시도해주세요";},3000);}window.applicationCache.addEventListener("Progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 document.cookie = 'kex=1';
 </script>
@@ -121,21 +121,21 @@ function load_goldhen_O11(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
-        link.href = 'payload.html#f=goldhen755.js';
+        link.href = 'payload11.html#f=goldhen755.js';
         link.click();
 }
 function load_goldhen_O10(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
-        link.href = 'payload.html#f=goldhen.js';
+        link.href = 'payload10.html#f=goldhen.js';
         link.click();
 }
 function load_dumper(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
-        link.href = 'payload.html#f=app-dumper.js';
+        link.href = 'payload11.html#f=app-dumper.js';
         link.click();
 }
 
