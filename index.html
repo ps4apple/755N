@@ -7,7 +7,7 @@ background-image: url('base.png');
 background-attachment: fixed;
 background-size:100%;
 background-repeat:no-repeat;
-background-color: #fffff;
+background-color: #b5b5b5;
 color:white;
 margin-top: 0px;
 margin-left: 0px;
@@ -16,7 +16,7 @@ overflow: hidden;
 }
 h1 {
 text-shadow: 0.1em 0.1em 0.2em black;
-font-size:25px;
+font-size:30px;
 text-align:center;
 color:#ffffff;
 }
@@ -28,6 +28,7 @@ padding-bottom: 13px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
+text-shadow: 0.1em 0.1em 0.1em black;
 font-size: 20px;
 margin-top: 15px;
 margin-bottom: 5px;
@@ -50,7 +51,7 @@ border-radius: 40px;
 box-shadow: 0 5px 50px 0 #AE9EFF;
 background-color: #AE9EFF;
 color: white;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 </style>
 <script>
@@ -65,19 +66,19 @@ document.cookie = 'kex=1';
 <br>
 <h1 style="font-size:60px;text-align:center;color:#ffffff;">PS4 애플 HACK - 7.55</h1>
 <div style="text-align:center">
-<button class="btn btn-main" onmouseover="goldhen_N11()" onmouseout="pagetitle()" onclick=load_goldhen_N11()> NEW_GOLDHEN 1.1 </button>
-<button class="btn btn-main" onmouseover="goldhen_N10()" onmouseout="pagetitle()" onclick=load_goldhen_N10()> NEW_GOLDHEN 1.0 </button>
+<button class="btn btn-main" onmouseover="newpayload11()" onmouseout="pagetitle()" onclick=load_goldhen_N11()> <b>NEW - GOLDHEN 1.1</b> </button>
+<button class="btn btn-main" onmouseover="newpayload10()" onmouseout="pagetitle()" onclick=load_goldhen_N10()> <b>NEW - GOLDHEN 1.0</b> </button>
 <br>
 <h1 style="font-size:30px;text-align:center;color:#ffffff"> 핵(HACK)을 선택해주세요</h1>
-<button class="btn btn-main" onmouseover="goldhen_O11()" onmouseout="pagetitle()" onclick=load_goldhen_O11()> OLD_GOLDHEN 1.1 </button>
-<button class="btn btn-main" onmouseover="goldhen_O10()" onmouseout="pagetitle()" onclick=load_goldhen_O10()> OLD_GOLDHEN 1.0 </button>
+<button class="btn btn-main" onmouseover="oldpayload11()" onmouseout="pagetitle()" onclick=load_goldhen_O11()> <b>OLD - GOLDHEN 1.1</b> </button>
+<button class="btn btn-main" onmouseover="oldpayload10()" onmouseout="pagetitle()" onclick=load_goldhen_O10()> <b>OLD - GOLDHEN 1.0</b> </button>
 <br><br>
-<button class="btn btn-main" onmouseover="dumper()" onmouseout="pagetitle()" onclick=load_dumper()> DUMPER </button>
+<button class="btn btn-main" onmouseover="dumper()" onmouseout="pagetitle()" onclick=load_dumper()> <b>DUMPER</b> </button>
 <br>
 <br>
+<h1 style="font-size:25px;text-align:center;color:#ffccff;">다운되면 다른버전 [ NEW↔OLD or G1.1↔G1.0 ] 을 골라보세요</h1>
 <br>
-<br>
-<h1 style="font-size:20px;text-align:right;color:#dcdcdc;">UPDATE:2021-09-16 Ver1.1&nbsp&nbsp&nbsp&nbsp</h1>
+<h1 style="font-size:20px;text-align:right;color:#ffffff;">UPDATE:2021-09-17 Ver1.2&nbsp&nbsp&nbsp&nbsp&nbsp</h1>
 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <br>
 <br>
@@ -85,17 +86,17 @@ document.cookie = 'kex=1';
 <br>
 <br>
 <script>
-function goldhen_N11(){
-document.getElementById("msgs").innerHTML = "뉴골드핸(NEW_GOLDHEN) v1.1";
+function newpayload11(){
+document.getElementById("msgs").innerHTML = "뉴 골드핸(NEW_GOLDHEN) v1.1";
 }
-function goldhen_N10(){
-document.getElementById("msgs").innerHTML = "뉴골드핸(NEW_GOLDHEN) v1.0";
+function newpayload10(){
+document.getElementById("msgs").innerHTML = "뉴 골드핸(NEW_GOLDHEN) v1.0";
 }
-function goldhen_O11(){
-document.getElementById("msgs").innerHTML = "올드골드핸(OLD_GOLDHEN) v1.1";
+function oldpayload11(){
+document.getElementById("msgs").innerHTML = "올드 골드핸(OLD_GOLDHEN) v1.1";
 }
-function goldhen_O10(){
-document.getElementById("msgs").innerHTML = "올드골드핸(OLD_GOLDHEN) v1.0";
+function oldpayload10(){
+document.getElementById("msgs").innerHTML = "올드 골드핸(OLD_GOLDHEN) v1.0";
 }
 function dumper(){
 document.getElementById("msgs").innerHTML = "DUMP YOUR GAMES";
